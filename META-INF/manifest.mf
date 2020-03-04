@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+
+Name: default.js
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: fU92d2y6aY1pbIF1XCuihzaZY1Y=
+SHA256-Digest: NWZse9IGkih93Jv+72EDnBDX8exmwQQAxL7YO+wgyAI=
+
+Name: gof-logo.jpg
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: DpSjRbQRn1zmjy2grE6yC4ddUmQ=
+SHA256-Digest: OfHTaE1aIc65O3aT+KcJSXZ+IDkflV9Nbql1eVaEF2E=
+
+Name: manifest.json
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: IR19aFsXOfkSFZGmrdRSB4Y88m4=
+SHA256-Digest: IzArAO53RovG3X1DoPrlVAISlEtAQp9w0V7r5MlvPOs=
+
+Name: META-INF/cose.manifest
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: 6Bvm8Kvr8BpooeadUumkQvrY8mI=
+SHA256-Digest: 3D9Xiwf0uhX0yjZMIRxQejRRD+8m7QB/AXyaeuL4z4g=
+
+Name: META-INF/cose.sig
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: x+6SRklI7Uah9JT1qXoZLVlmjnY=
+SHA256-Digest: qqlU7zEVj0yWrOpV06gF4KkA7Pql5gixgLCMLXhDsto=
+

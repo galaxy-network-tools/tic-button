@@ -1,0 +1,28 @@
+{
+"manifest_version": 2,
+  "name": "New TIC-Button",
+  "version": "2.1",
+  "author": "Markus Westerhoff (Boobie)",
+  "description": "Sendet Scans und Taktik von Galaxy Network ans TIC",
+  "homepage_url": "https://tic.gof-server.de",
+  
+"icons": {
+  "96": "gof-logo.jpg"
+},
+
+"content_scripts": [
+{
+  "matches": ["https://www.galaxy-network.net/*"],
+  "js": ["default.js"]
+}
+],
+ 
+"permissions": [
+  "*://www.galaxy-network.net/*",
+  "https://tic.gof-server.de/*",
+  "activeTab",
+  "contextMenus",
+  "webRequest",
+  "webRequestBlocking"
+  ]
+}
