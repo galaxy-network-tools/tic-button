@@ -1,29 +1,26 @@
 {
-"manifest_version": 2,
+  "manifest_version": 2,
   "name": "TIC-Button",
   "version": "2.1",
-  "author": "worp1900",
-  "description": "Sendet Scans und Taktik von Galaxy Network ans TIC. Adaptiert von Boobies New TIC-Button.",
+  "author": "Boobie,worp1900",
+  "description": "Sendet Scans und Taktik von Galaxy Network ans TIC. Adaptiert von Boobies New TIC-Button. Icons made by surang: https://www.flaticon.com/authors/surang",
   "homepage_url": "http://ec2-18-195-241-69.eu-central-1.compute.amazonaws.com",
-  
-"icons": {
-  // TODO
-  "96": "gof-logo.jpg"
-},
 
-"content_scripts": [
-{
-  "matches": ["https://www.galaxy-network.net/*"],
-  "js": ["default.js"]
-}
-],
- 
-"permissions": [
-  "*://www.galaxy-network.net/*",
-  "http://ec2-18-195-241-69.eu-central-1.compute.amazonaws.com/*",
-  "activeTab",
-  "contextMenus",
-  "webRequest",
-  "webRequestBlocking"
+  "icons": {
+    "96": "icon.png"
+  },
+
+  "content_scripts": [{
+    "matches": ["https://www.galaxy-network.net/*"],
+    "js": ["default.js"]
+  }],
+
+  "permissions": [
+    "*://www.galaxy-network.net/*",
+    "http://ec2-18-195-241-69.eu-central-1.compute.amazonaws.com/*",
+    "activeTab",
+    "contextMenus",
+    "webRequest",
+    "webRequestBlocking"
   ]
 }
