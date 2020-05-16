@@ -10,6 +10,12 @@
     "96": "icon.png"
   },
 
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "tic-addon@worp.io"
+    }
+  },
+
   "content_scripts": [{
     "matches": ["https://www.galaxy-network.net/*"],
     "js": ["default.js"]
