@@ -5,7 +5,9 @@
 
     var docURL = doc.URL;
 
-    var ticUrl = "https://tic.gof-server.de";
+    console.log('Tic-Addon loaded');
+
+    var ticUrl = "http://ec2-18-195-241-69.eu-central-1.compute.amazonaws.com";
     var ticVersion = "tic-1.19.1";
     var form0 = this.createTicForm(doc, ticVersion, ticUrl);
     if (form0 != false) div.appendChild(form0);
