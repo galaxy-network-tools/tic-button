@@ -1,10 +1,10 @@
 {
   "manifest_version": 2,
-  "name": "TIC-Button",
+  "name": "NBNP TIC-Button",
   "version": "2.1",
   "author": "Boobie,worp1900",
   "description": "Sendet Scans und Taktik von Galaxy Network ans TIC. Adaptiert von Boobies New TIC-Button. Icons made by surang: https://www.flaticon.com/authors/surang",
-  "homepage_url": "http://ec2-18-195-241-69.eu-central-1.compute.amazonaws.com",
+  "homepage_url": "https://www.navikatzen.com/tic2",
 
   "icons": {
     "96": "icon.png"
@@ -12,18 +12,18 @@
 
   "browser_specific_settings": {
     "gecko": {
-      "id": "tic-addon@worp.io"
+      "id": "ticaddon@worp.io"
     }
   },
 
   "content_scripts": [{
-    "matches": ["https://www.galaxy-network.net/*"],
+    "matches": ["https://galaxy-network.de/*"],
     "js": ["default.js"]
   }],
 
   "permissions": [
     "*://www.galaxy-network.net/*",
-    "http://ec2-18-195-241-69.eu-central-1.compute.amazonaws.com/*",
+    "https://www.navikatzen.com/tic2/*",
     "activeTab",
     "contextMenus",
     "webRequest",
